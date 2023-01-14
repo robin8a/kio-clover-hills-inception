@@ -36,3 +36,7 @@ open dental will integrate with a patient engagement software called Flex Dental
 ## With Direct Connect
 
 - https://calculator.aws/#/estimate?id=714771c96f47fa7e60c116b66d1fe85c61ba92f6
+
+## VPN
+- https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/cvpn-getting-started.html
+- https://calculator.aws/#/estimate?id=4deff1f319ee427107f94d2755c8096f7b76826e
