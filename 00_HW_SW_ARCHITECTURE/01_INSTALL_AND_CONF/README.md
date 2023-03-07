@@ -100,22 +100,6 @@ https://www.thewindowsclub.com/open-windows-services
 2. 
 
 
-# Scanner
-1. Install the drivers
-2. Opendental => Setup => Imaging => Scanning => [Set Default Scanner
-
-
-# Mounth Wash
-1. https://support.mouthwatch.com/hc/en-us
-2. Intraoral Camera Support
-3. Button CApture Software
-
-- Funciona la clave en diferentes equipos?
-
-# Impresora MFC9330CDW
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YDhC3U09zUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 Gina => Trazabilidad => 
 

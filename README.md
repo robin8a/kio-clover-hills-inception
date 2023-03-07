@@ -1,6 +1,6 @@
 # Open Dental
 
-- https://www.opendental.com/manual/amazonrds.html
+- [RDS Aurora DB AWS](https://www.opendental.com/manual/amazonrds.html)
 - https://www.opendental.com/site/computerrequirements.html
 - https://www.opendental.com/order.html
 - https://www.opendental.com/trial.html
@@ -51,10 +51,32 @@ open dental will integrate with a patient engagement software called Flex Dental
 
 - https://calculator.aws/#/estimate?id=714771c96f47fa7e60c116b66d1fe85c61ba92f6
 
-## VPN
+# VPN
 - https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/cvpn-getting-started.html
 - https://calculator.aws/#/estimate?id=4deff1f319ee427107f94d2755c8096f7b76826e
+- [AWS - Setup Site-to-Site VPN Connection](https://www.youtube.com/watch?v=kqrWjR2Nn7Q)
+- [setup a FREE VPN server in the cloud (AWS)](https://youtu.be/m-i2JBtG4FE)
 
+```sh
+# ref: https://99robots.com/how-to-fix-permission-error-ssh-amazon-ec2-instance/
+
+# firt time
+chmod 400 clover-openvpn-key-pair.pem
+
+ssh -i "clover-openvpn-key-pair.pem" root@ec2-3-227-255-46.compute-1.amazonaws.com
+
+# after default server configuration
+ssh -i "clover-openvpn-key-pair.pem" openvpnas@ec2-3-227-255-46.compute-1.amazonaws.com
+
+sudo passwd openvpn
+
+```
+
+## 
+Please login as the user "openvpnas" rather than the user "root".
+
+## User portal
+https://ec2-3-227-255-46.compute-1.amazonaws.com:943/
 
 ## HIPPA
 - https://aws.amazon.com/solutions/implementations/compliance-hipaa/
@@ -62,4 +84,36 @@ open dental will integrate with a patient engagement software called Flex Dental
 
 # Flex, bundle service
 - https://www.flex.dental/
+
+
+# AWS Site To Site VPN
+[AWS Site To Site VPN - New video with improved steps (Part 1)](https://youtu.be/5YvcyBecQts)
+
+# 
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateVPC.html
+
+
+# S3 as network drive
+
+- https://www.opendental.com/manual/atozshare.html
+- Sync local folder to s3 https://www.linkedin.com/pulse/how-sync-aws-s3-buckets-local-folders-let-see-steps-belo-amit-kumar?trk=pulse-article_more-articles_related-content-card
+- S3 as a file system: https://bluexp.netapp.com/blog/amazon-s3-as-a-file-system
+- S3 as a file system including Windows: https://www.nakivo.com/blog/mount-amazon-s3-as-a-drive-how-to-guide/
+
+
+
+# HW  
+- Lectura de manuales de instalación
+- Desempacar y seguir las intrucciones del fabricante, del servidor y UPS
+- Investigación de instalación/actualización firmware
+https://www.dell.com/community/PowerEdge-Hardware-General/T620-Lifecycle-Controller-Firmware-Update-bricked-PSU/td-p/4539565
+- Revisión de consumo de voltaje actualización del servidor
+
+# Paper work
+- Coordinar altura de los TVs
+- Abrir la puerta cada vez que necesiten un TV, 3 hasta las 15:29
+
+
+
+
 
